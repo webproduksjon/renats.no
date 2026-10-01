@@ -232,8 +232,14 @@ img { height: auto; max-width: 100%; }
 .micro-trust { color: var(--ink-soft); font-size: .95rem; margin: 0 0 1.5rem; max-width: 75ch; }
 .micro-trust strong { color: var(--teal-dark); }
 
-.micro-trust { color: var(--ink-soft); font-size: .95rem; margin: 0 0 1.5rem; max-width: 75ch; }
-.micro-trust strong { color: var(--teal-dark); }
-
-.micro-trust { color: var(--ink-soft); font-size: .95rem; margin: 0 0 1.5rem; max-width: 75ch; }
-.micro-trust strong { color: var(--teal-dark); }
+/* Contact pages: give the form a balanced layout instead of inheriting the founder-image grid. */
+.contact-layout { grid-template-columns: minmax(0, 1.15fr) minmax(250px, .85fr); }
+.contact-form-panel { background: #f7faf8; border: 1px solid var(--line); border-radius: var(--radius-md); padding: clamp(1.25rem, 3vw, 2rem); }
+.contact-form-panel h2 { margin-top: 0; }
+.form-intro { color: var(--ink-soft); margin-top: -.25rem; }
+.contact-info-panel { padding: .5rem .25rem; }
+.contact-info-panel h2 { margin-top: 0; }
+.contact-info-panel .steps-list { margin-top: .8rem; }
+.small-note { color: var(--muted); font-size: .9rem; }
+.concept-contact-layout { border-top: 4px solid var(--teal); }
+@media (max-width: 760px) { .contact-layout { grid-template-columns: 1fr; } .contact-info-panel { padding: 0; } }
