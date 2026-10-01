@@ -121,3 +121,16 @@ main > ul > li strong, main > ol > li strong { color: var(--ink); display: block
 
 /* Short pages still receive a clear content surface without adding copy. */
 .page-shell > p:not(.hero-block), .page-shell > h2 { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius-md); box-shadow: 0 8px 24px rgba(22,50,79,.05); margin: 1.5rem 0; padding: clamp(1.35rem, 3vw, 2.3rem); }
+
+
+.skip-link {
+  background: var(--orange);
+  color: var(--ink);
+  left: 1rem;
+  padding: .65rem 1rem;
+  position: absolute;
+  top: -5rem;
+  z-index: 100;
+}
+.skip-link:focus { top: 1rem; }
+img { height: auto; max-width: 100%; }
