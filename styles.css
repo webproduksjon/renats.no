@@ -169,3 +169,23 @@ img { height: auto; max-width: 100%; }
 
 .site-footer .footer-nav ul { row-gap: .45rem; }
 .site-footer .footer-nav a { text-decoration-thickness: .08em; }
+
+.eyebrow { color: var(--teal-dark); font-size: .82rem; font-weight: 800; letter-spacing: .08em; margin: 0 0 .55rem; text-transform: uppercase; }
+.hero-block .eyebrow { color: #b8e2dd; }
+.founder-teaser-grid, .founder-profile-grid, .contact-layout { align-items: start; display: grid; gap: 2rem; grid-template-columns: minmax(180px, 280px) 1fr; }
+.founder-teaser img, .founder-profile img { border-radius: 18px; display: block; height: auto; width: 100%; }
+.founder-profile-grid { grid-template-columns: minmax(200px, 330px) 1fr; }
+.founder-profile-grid .lead { margin-top: 0; }
+.price-grid { display: grid; gap: 1.2rem; grid-template-columns: repeat(2, minmax(0, 1fr)); margin: 1.5rem 0; }
+.price-card { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius-md); box-shadow: var(--shadow); padding: clamp(1.35rem, 3vw, 2.3rem); }
+.price-card h2 { margin: 0; }
+.price-card .price { color: var(--ink); font-size: clamp(2rem, 5vw, 3.1rem); font-weight: 800; letter-spacing: -.05em; margin: .6rem 0; }
+.price-card .price span { color: var(--muted); font-size: .95rem; font-weight: 600; letter-spacing: 0; }
+.featured-price { border-top: 5px solid var(--teal); }
+.enquiry-form { display: grid; gap: .55rem; }
+.enquiry-form label { font-weight: 700; margin-top: .4rem; }
+.enquiry-form input, .enquiry-form textarea { background: white; border: 1px solid #aebfc0; border-radius: 8px; color: var(--ink); font: inherit; padding: .7rem .8rem; width: 100%; }
+.enquiry-form input:focus, .enquiry-form textarea:focus { border-color: var(--teal); box-shadow: 0 0 0 3px rgba(28,124,122,.18); outline: none; }
+.form-note, .legal-line { color: var(--muted); font-size: .88rem; }
+.site-footer .legal-line { color: #b9cdd1; font-size: .82rem; margin-top: .7rem; }
+@media (max-width: 760px) { .founder-teaser-grid, .founder-profile-grid, .contact-layout, .price-grid { grid-template-columns: 1fr; } .founder-teaser img, .founder-profile img { max-width: 260px; } }
