@@ -204,3 +204,16 @@ img { height: auto; max-width: 100%; }
 .faq-block summary { color: var(--ink); cursor: pointer; font-weight: 800; padding-right: 1rem; }
 .faq-block details p { margin: .65rem 0 0; }
 @media (max-width: 760px) { .decision-grid, .comparison-grid { grid-template-columns: 1fr; } }
+
+.demo-preview-grid { display: grid; gap: 1rem; grid-template-columns: repeat(3, 1fr); }
+.demo-preview-card { background: #f7faf8; border: 1px solid var(--line); border-radius: var(--radius-md); overflow: hidden; }
+.demo-preview-card img { aspect-ratio: 16 / 10; display: block; object-fit: cover; width: 100%; }
+.demo-preview-card .demo-preview-copy { padding: 1.1rem; }
+.demo-preview-card h3 { margin: 0 0 .45rem; }
+.demo-label { color: var(--teal-dark); font-size: .78rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+.demo-disclosure { background: #fff7e8; border-color: #ead2a0; }
+.demo-disclosure h2 { color: #705119; }
+@media (max-width: 760px) { .demo-preview-grid { grid-template-columns: 1fr; } }
+.demo-inline-grid { align-items: center; display: grid; gap: 1.5rem; grid-template-columns: minmax(0, 1.2fr) minmax(220px, .8fr); }
+.demo-inline-grid img { border: 1px solid var(--line); border-radius: var(--radius-md); box-shadow: 0 10px 24px rgba(22,50,79,.12); display: block; max-height: 360px; object-fit: cover; object-position: top; width: 100%; }
+@media (max-width: 760px) { .demo-inline-grid { grid-template-columns: 1fr; } }
