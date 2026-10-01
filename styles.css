@@ -118,3 +118,6 @@ main > ul > li strong, main > ol > li strong { color: var(--ink); display: block
   .hero-block { min-height: 220px; }
   .hero-block::before { right: 30px; }
 }
+
+/* Short pages still receive a clear content surface without adding copy. */
+.page-shell > p:not(.hero-block), .page-shell > h2 { background: var(--paper); border: 1px solid var(--line); border-radius: var(--radius-md); box-shadow: 0 8px 24px rgba(22,50,79,.05); margin: 1.5rem 0; padding: clamp(1.35rem, 3vw, 2.3rem); }
