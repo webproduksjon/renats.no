@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://renats.no/sitemap.xml
+Sitemap: https://webproduksjon.no/sitemap.xml

@@ -1,4 +1,4 @@
-# renats.no
+# webproduksjon.no
 
 Design-neutral foundation for a Norwegian website studio offering simple static websites for new and small businesses.
 
@@ -61,7 +61,7 @@ This repository intentionally contains **structure before design**. The HTML is 
 
 - Pages are plain HTML and can be hosted on ordinary static hosting.
 - No framework, CMS, build step, JavaScript, or design system is required at this stage.
-- `robots.txt` and `sitemap.xml` use `https://renats.no` as the intended public origin. Change this everywhere if the canonical domain changes.
+- `robots.txt` and `sitemap.xml` use `https://webproduksjon.no` as the intended public origin. Change this everywhere if the canonical domain changes.
 - The current pages include meaningful structural content rather than an empty client-rendered shell.
 - When adding a page, update navigation, breadcrumbs, relevant cross-links, `sitemap.xml`, and this route map together.
 
