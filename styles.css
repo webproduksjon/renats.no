@@ -189,3 +189,6 @@ img { height: auto; max-width: 100%; }
 .form-note, .legal-line { color: var(--muted); font-size: .88rem; }
 .site-footer .legal-line { color: #b9cdd1; font-size: .82rem; margin-top: .7rem; }
 @media (max-width: 760px) { .founder-teaser-grid, .founder-profile-grid, .contact-layout, .price-grid { grid-template-columns: 1fr; } .founder-teaser img, .founder-profile img { max-width: 260px; } }
+.work-context .founder-profile-grid { align-items: center; grid-template-columns: 1fr minmax(200px, 330px); }
+.work-context img { border-radius: 18px; display: block; height: auto; width: 100%; }
+@media (max-width: 760px) { .work-context .founder-profile-grid { grid-template-columns: 1fr; } }
