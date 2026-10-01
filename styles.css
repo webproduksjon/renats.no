@@ -192,3 +192,15 @@ img { height: auto; max-width: 100%; }
 .work-context .founder-profile-grid { align-items: center; grid-template-columns: 1fr minmax(200px, 330px); }
 .work-context img { border-radius: 18px; display: block; height: auto; width: 100%; }
 @media (max-width: 760px) { .work-context .founder-profile-grid { grid-template-columns: 1fr; } }
+
+.offer-decision, .offer-comparison { border-top: 4px solid var(--teal); }
+.decision-grid, .comparison-grid { display: grid; gap: 1rem; grid-template-columns: repeat(3, 1fr); }
+.decision-grid article, .comparison-grid article { background: #f7faf8; border: 1px solid var(--line); border-radius: var(--radius-md); padding: 1.15rem; }
+.decision-grid h3, .comparison-grid h3 { margin-top: 0; }
+.decision-grid p, .comparison-grid p { margin-bottom: .55rem; }
+.faq-block { border-top: 4px solid var(--orange); }
+.faq-block details { border-bottom: 1px solid var(--line); padding: .9rem 0; }
+.faq-block details:last-of-type { border-bottom: 0; }
+.faq-block summary { color: var(--ink); cursor: pointer; font-weight: 800; padding-right: 1rem; }
+.faq-block details p { margin: .65rem 0 0; }
+@media (max-width: 760px) { .decision-grid, .comparison-grid { grid-template-columns: 1fr; } }
