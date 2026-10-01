@@ -151,3 +151,13 @@ img { height: auto; max-width: 100%; }
 .steps-list span { color: var(--muted); }
 .contact-panel { border-top: 4px solid var(--orange); }
 @media (max-width: 600px) { .cta-row { align-items: stretch; flex-direction: column; } .button { text-align: center; } }
+
+.trust-block { border-top: 4px solid var(--teal); }
+.trust-grid, .fit-grid { display: grid; gap: 1rem; grid-template-columns: repeat(3, 1fr); }
+.trust-grid > div, .fit-grid > div { background: #f7faf8; border: 1px solid var(--line); border-radius: var(--radius-md); padding: 1.15rem; }
+.trust-grid strong { color: var(--teal-dark); display: block; font-size: 1.05rem; }
+.trust-grid p { margin-bottom: 0; }
+.fit-grid { grid-template-columns: repeat(2, 1fr); }
+.fit-grid h3 { margin-top: 0; }
+.fit-grid ul { margin-bottom: 0; }
+@media (max-width: 760px) { .trust-grid, .fit-grid { grid-template-columns: 1fr; } }
