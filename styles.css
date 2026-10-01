@@ -228,3 +228,12 @@ img { height: auto; max-width: 100%; }
 .reference-list li { margin-top: .55rem; overflow-wrap: anywhere; }
 .resource-cta { background: #fff7e8; border-color: #ead2a0; }
 .resource-tag { color: var(--teal-dark); font-size: .8rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+
+.micro-trust { color: var(--ink-soft); font-size: .95rem; margin: 0 0 1.5rem; max-width: 75ch; }
+.micro-trust strong { color: var(--teal-dark); }
+
+.micro-trust { color: var(--ink-soft); font-size: .95rem; margin: 0 0 1.5rem; max-width: 75ch; }
+.micro-trust strong { color: var(--teal-dark); }
+
+.micro-trust { color: var(--ink-soft); font-size: .95rem; margin: 0 0 1.5rem; max-width: 75ch; }
+.micro-trust strong { color: var(--teal-dark); }
