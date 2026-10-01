@@ -186,6 +186,7 @@ img { height: auto; max-width: 100%; }
 .enquiry-form label { font-weight: 700; margin-top: .4rem; }
 .enquiry-form input, .enquiry-form textarea { background: white; border: 1px solid #aebfc0; border-radius: 8px; color: var(--ink); font: inherit; padding: .7rem .8rem; width: 100%; }
 .enquiry-form input:focus, .enquiry-form textarea:focus { border-color: var(--teal); box-shadow: 0 0 0 3px rgba(28,124,122,.18); outline: none; }
+.enquiry-form input:focus-visible, .enquiry-form textarea:focus-visible { outline: 3px solid var(--orange); outline-offset: 2px; }
 .form-note, .legal-line { color: var(--muted); font-size: .88rem; }
 .site-footer .legal-line { color: #b9cdd1; font-size: .82rem; margin-top: .7rem; }
 @media (max-width: 760px) { .founder-teaser-grid, .founder-profile-grid, .contact-layout, .price-grid { grid-template-columns: 1fr; } .founder-teaser img, .founder-profile img { max-width: 260px; } }
