@@ -166,3 +166,6 @@ img { height: auto; max-width: 100%; }
 .concept-callout h2 { color: var(--teal-dark); }
 .disclosure-block { border-left: 4px solid var(--orange); }
 .source-block { border-top: 4px solid var(--teal); }
+
+.site-footer .footer-nav ul { row-gap: .45rem; }
+.site-footer .footer-nav a { text-decoration-thickness: .08em; }
