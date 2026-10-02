@@ -299,3 +299,17 @@ img { height: auto; max-width: 100%; }
 .portfolio-feature { border-top: 4px solid var(--teal); }
 .portfolio-feature h2 { margin-bottom: .55rem; }
 .portfolio-case { background: #f7faf8; border-left: 4px solid var(--teal); }
+
+/* Agency visual system: restrained surfaces, sharper geometry and a more editorial hierarchy. */
+:root { --cream: #f2f4f6; --paper: #ffffff; --ink: #102a43; --ink-soft: #334e68; --teal: #0b7285; --teal-dark: #075985; --orange: #c77b30; --line: #d9e2ec; --shadow: 0 12px 30px rgba(16,42,67,.08); --radius-lg: 10px; --radius-md: 8px; }
+body { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: -.005em; }
+.site-header { background: rgba(255,255,255,.96); box-shadow: 0 1px 0 rgba(16,42,67,.06); }
+.brand { letter-spacing: .01em; }
+.site-nav a { border-radius: 6px; font-weight: 650; }
+.hero-block { border-radius: var(--radius-lg); min-height: 275px; }
+.hero-block::after { opacity: .52; }
+.content-block { box-shadow: 0 5px 18px rgba(16,42,67,.045); }
+.button { border-radius: 6px; }
+.price-facts span { border-radius: 5px; }
+.eyebrow, .resource-tag { letter-spacing: .12em; }
+.site-footer { border-top: 4px solid var(--teal); }
