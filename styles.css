@@ -384,3 +384,112 @@ body { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSyst
   .home-page .concept-callout { padding: 1.35rem 1.1rem; }
   .home-page .hero-block { padding: 1.8rem 1.35rem 2rem; }
 }
+
+/* 2026 commercial redesign: calm editorial layout, fewer cards, clearer decisions. */
+:root { --ink:#172b3d; --ink-soft:#526574; --teal:#167c82; --teal-dark:#0e5e65; --orange:#d58b45; --cream:#f5f7f7; --paper:#fff; --line:#dce5e7; --shadow:0 14px 35px rgba(23,43,61,.08); --radius-lg:18px; --radius-md:12px; }
+body { background:#f5f7f7; color:var(--ink); font-size:1.02rem; line-height:1.65; }
+.site-header { background:rgba(255,255,255,.96); border-bottom:1px solid #e5ebed; box-shadow:0 2px 12px rgba(23,43,61,.04); }
+.header-inner { padding:1rem 1.25rem; }
+.brand { font-size:1.15rem; letter-spacing:-.03em; }
+.site-nav a { color:var(--ink-soft); font-weight:650; }
+.site-nav a:hover,.site-nav a:focus-visible,.site-nav a[aria-current=page] { background:#edf6f6; color:var(--teal-dark); }
+.page-shell { max-width:1080px; padding:1.5rem 1.25rem 5rem; }
+.breadcrumbs { margin-bottom:1.25rem; font-size:.85rem; }
+.hero-block { border-radius:var(--radius-lg); box-shadow:0 18px 40px rgba(23,43,61,.12); margin-bottom:2.4rem; min-height:0; padding:clamp(2rem,6vw,4.4rem); }
+.hero-block::after { opacity:.45; }
+.hero-block::before { opacity:.7; }
+.hero-block h1 { max-width:760px; font-size:clamp(2.25rem,5vw,4.25rem); letter-spacing:-.065em; }
+.hero-block p { max-width:650px; }
+.hero-home { min-height:510px; display:flex; flex-direction:column; justify-content:center; }
+.hero-home h1 { max-width:720px; }
+.hero-home .hero-note { color:#b8e2dd; font-size:.92rem; font-weight:650; margin-top:1.1rem; }
+.hero-home .button-secondary { border-color:#8dc7c4; color:#eaf7f6; }
+.hero-home .button-secondary:hover { color:white; }
+.content-block { background:transparent; border:0; box-shadow:none; border-radius:0; margin:4.5rem 0; padding:0; }
+.content-block h2 { font-size:clamp(1.65rem,3vw,2.45rem); letter-spacing:-.045em; max-width:720px; }
+.lead { color:var(--ink-soft); font-size:1.25rem; max-width:760px; margin:0 0 2.5rem; }
+.eyebrow { color:var(--teal-dark); font-size:.75rem; letter-spacing:.13em; }
+.card-grid,.offer-grid,.benefit-grid { display:grid; gap:1rem; grid-template-columns:repeat(2,minmax(0,1fr)); }
+.mini-card,.offer-card,.benefit-grid article { background:var(--paper); border:1px solid var(--line); border-radius:var(--radius-md); box-shadow:0 8px 22px rgba(23,43,61,.045); padding:1.5rem; }
+.offer-grid { gap:1.25rem; margin-top:1.4rem; }
+.offer-card { min-height:260px; position:relative; }
+.offer-card h2,.offer-card h3 { margin:.2rem 0 .55rem; }
+.offer-card p { max-width:38ch; }
+.offer-number { color:var(--orange); font-weight:800; letter-spacing:.1em; margin:0; }
+.offer-price { color:var(--teal-dark); font-size:1.15rem; font-weight:800; margin-top:1.3rem; }
+.offer-card-featured { background:#eaf5f4; border-color:#b7d9d6; }
+.benefit-grid { grid-template-columns:repeat(3,minmax(0,1fr)); margin-top:1.3rem; }
+.benefit-grid article { padding:1.3rem; }
+.benefit-grid h3 { font-size:1.12rem; margin:.1rem 0 .45rem; }
+.benefit-grid p { color:var(--ink-soft); font-size:.96rem; margin:0; }
+.difference-section { border-top:1px solid var(--line); padding-top:3rem; }
+.process-preview { display:grid; gap:2rem; grid-template-columns:.9fr 1.1fr; }
+.process-preview .steps-list { margin-top:0; }
+.steps-list li { border-left:3px solid var(--orange); padding-left:1rem; }
+.case-teaser { align-items:center; background:#eaf5f4; border:1px solid #b7d9d6; border-radius:var(--radius-lg); display:grid; gap:2rem; grid-template-columns:1fr 1fr; padding:1.5rem; }
+.case-teaser img { border-radius:10px; display:block; width:100%; }
+.final-cta { background:var(--ink); border-radius:var(--radius-lg); color:white; margin-bottom:1rem; padding:clamp(1.75rem,4vw,3rem); }
+.final-cta h2 { color:white; }
+.final-cta p { color:#d9e8ea; max-width:620px; }
+.final-cta .eyebrow { color:#b8e2dd; }
+.final-cta .button { margin-top:.5rem; }
+.price-fact-line,.micro-trust { color:var(--teal-dark); font-size:.95rem; margin:0 0 1.5rem; }
+.price-fact-line { border:0; padding:0; }
+.price-vat-note { background:#fff9f1; border:1px solid #f0d7b5; border-left:3px solid var(--orange); color:#66533e; font-size:.9rem; }
+.home-page .offer-decision { background:transparent; border:0; padding:0; }
+.home-page .portfolio-feature { display:none; }
+.home-page .concept-callout { display:none; }
+.purchase-summary { background:#edf6f6; border:1px solid #cbe1df; border-radius:var(--radius-md); box-shadow:none; margin:2rem 0; padding:1.5rem; }
+.purchase-summary ul { columns:2; gap:2rem; }
+.purchase-summary li { break-inside:avoid; margin:.55rem 0; }
+.price-grid { gap:1rem; }
+.price-card { box-shadow:var(--shadow); border:1px solid var(--line); }
+.price-card.featured-price { border-top:4px solid var(--teal); }
+.price-comparison { border-top:0; }
+.comparison-scroll { border:1px solid var(--line); border-radius:var(--radius-md); }
+.price-comparison table { min-width:680px; }
+.price-comparison th { background:#edf6f6; }
+.contact-layout { gap:3rem; grid-template-columns:minmax(0,1.1fr) minmax(240px,.7fr); }
+.contact-form-panel { background:white; border:1px solid var(--line); border-radius:var(--radius-md); box-shadow:var(--shadow); padding:clamp(1.4rem,4vw,2.2rem); }
+.contact-aside { padding-top:1rem; }
+.aside-note { background:#edf6f6; border-radius:10px; margin-top:1.5rem; padding:1rem; }
+.about-intro { align-items:center; display:grid; gap:3rem; grid-template-columns:1fr 280px; margin:0 0 4.5rem; }
+.about-intro img { border-radius:var(--radius-lg); width:100%; }
+.about-intro h2 { font-size:clamp(2rem,4vw,3.2rem); letter-spacing:-.06em; }
+.about-values { border-top:1px solid var(--line); padding-top:3rem; }
+.business-facts { background:#edf6f6; border-radius:var(--radius-md); padding:1.5rem; }
+.service-terms { color:var(--ink-soft); font-size:.92rem; }
+.external-link::after { content:' ↗'; }
+@media (max-width:760px) {
+ .page-shell { padding-top:1rem; }
+ .hero-block { margin-bottom:1.7rem; padding:1.8rem 1.25rem 2.1rem; }
+ .hero-home { min-height:520px; }
+ .hero-block h1 { font-size:clamp(2.15rem,10vw,3.2rem); }
+ .content-block { margin:3rem 0; }
+ .card-grid,.offer-grid,.benefit-grid,.process-preview,.case-teaser,.about-intro,.contact-layout { grid-template-columns:1fr; }
+ .benefit-grid { gap:.7rem; }
+ .mini-card,.offer-card,.benefit-grid article { padding:1.15rem; }
+ .purchase-summary ul { columns:1; }
+ .purchase-summary { padding:1.1rem; }
+ .purchase-summary-links { font-size:.9rem; }
+ .case-teaser { padding:1.1rem; }
+ .about-intro { gap:1.5rem; }
+ .about-intro img { max-width:250px; order:-1; }
+ .contact-aside { padding:0; }
+ .price-grid { grid-template-columns:1fr; }
+ .price-strip { gap:.4rem; }
+}
+
+/* Final surface cleanup for secondary pages. */
+.page-shell > p.lead { background:transparent; border:0; border-radius:0; box-shadow:none; margin:0 0 2.5rem; padding:0; }
+.page-shell > p:not(.lead):not(.micro-trust):not(.price-fact-line):not(.trust-line) { background:transparent; border:0; box-shadow:none; padding:0; }
+.purchase-summary { border-left:4px solid var(--teal); border-radius:0 12px 12px 0; }
+.price-fact-box { background:#fff; border:1px solid var(--line); border-left:4px solid var(--teal); border-radius:0 12px 12px 0; box-shadow:none; }
+.price-fact-box .price-vat-note { background:transparent; border:0; border-top:1px solid #eadfce; border-radius:0; padding:.75rem 0 0; }
+.price-facts span { background:#edf6f6; border:0; }
+.resource-article .content-block { border-bottom:1px solid var(--line); padding-bottom:2.5rem; }
+.resource-article .resource-cta { background:#edf6f6; border:0; border-radius:12px; padding:1.5rem; }
+.resource-article .author-note { background:transparent; border-left:3px solid var(--teal); padding:.5rem 0 .5rem 1rem; }
+.demo-disclosure { background:#fff9f1; border:1px solid #f0d7b5; border-left:4px solid var(--orange); border-radius:0 12px 12px 0; }
+.site-footer { margin-top:2rem; }
+@media (max-width:760px) { .resource-article .content-block { padding-bottom:1.75rem; } .price-fact-box { padding:1.1rem; } }
