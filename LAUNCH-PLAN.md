@@ -3,7 +3,7 @@
 **Prepared:** 2026-10-02  
 **Target:** Publish on the real `webproduksjon.no` domain today  
 **Current source:** `webproduksjon/renats.no`, branch `main`  
-**Current public preview:** `https://webproduksjon.github.io/renats.no/`
+**Current public preview:** `https://webproduksjon.no/`
 
 ## Launch decision
 
@@ -146,7 +146,7 @@ Delete these unfinished stub files from the published branch rather than leaving
    - configure the apex and/or `www` DNS records according to the selected host;
    - choose one canonical host (`https://webproduksjon.no/` or `https://www.webproduksjon.no/`) and redirect the other;
    - enable HTTPS and wait for certificate issuance.
-3. Replace every production-facing absolute URL currently using `https://webproduksjon.github.io/renats.no/` with the selected real-domain URL in:
+3. Replace every production-facing absolute URL currently using `https://webproduksjon.no/` with the selected real-domain URL in:
    - canonical tags;
    - Open Graph and Twitter URLs;
    - JSON-LD;
