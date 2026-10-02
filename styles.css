@@ -363,3 +363,24 @@ body { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSyst
 @media (max-width: 760px) { .home-page .content-block { margin: 2.35rem 0; } .home-page .portfolio-feature { padding: 1.25rem; } }
 .home-page .page-shell > p.price-fact-line,
 .home-page .page-shell > p.micro-trust { background: transparent; border: 0; border-bottom: 0; border-radius: 0; box-shadow: none; margin: 1rem 0 0; padding: .5rem 0; }
+
+/* Mobile conversion pass: compact facts, readable choices and reliable tap targets. */
+.price-strip { display: flex; flex-wrap: wrap; gap: .55rem; margin: 1rem 0 0; }
+.price-strip span { background: #eaf5f4; border: 1px solid #b6d8d4; border-radius: 999px; color: var(--ink); font-size: .9rem; font-weight: 750; padding: .4rem .7rem; }
+@media (max-width: 760px) {
+  .home-page .content-block { margin: 1.85rem 0; }
+  .home-page .card-grid { gap: .65rem; grid-template-columns: 1fr; }
+  .home-page .mini-card { padding: .95rem 1rem; }
+  .home-page .mini-card p { font-size: .94rem; line-height: 1.45; }
+  .home-page .trust-grid { gap: .65rem; grid-template-columns: 1fr; }
+  .home-page .trust-grid > div { padding: .9rem 1rem; }
+  .home-page .trust-grid p { font-size: .94rem; line-height: 1.45; }
+  .home-page .price-strip { display: grid; gap: .45rem; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .home-page .price-strip span { border-radius: 7px; font-size: .86rem; padding: .55rem .6rem; }
+  .home-page .price-strip span:last-child { grid-column: 1 / -1; }
+  .home-page .portfolio-feature .button, .home-page .concept-callout .button { display: block; text-align: center; width: 100%; }
+  .home-page .portfolio-feature .text-link { display: block; margin-top: .8rem; text-align: center; }
+  .home-page .steps-list li { padding-left: .8rem; }
+  .home-page .concept-callout { padding: 1.35rem 1.1rem; }
+  .home-page .hero-block { padding: 1.8rem 1.35rem 2rem; }
+}
