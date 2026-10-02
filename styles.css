@@ -327,3 +327,15 @@ body { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSyst
 .purchase-summary li { padding-left: .15rem; }
 .purchase-summary-links { border-top: 1px solid #b6d8d4; margin: 1.2rem 0 0; padding-top: .9rem; }
 @media (max-width: 760px) { .purchase-summary ul { grid-template-columns: 1fr; } }
+
+/* Accessible mobile navigation: compact by default, keyboard-operable when opened. */
+.menu-toggle { background: var(--ink); border: 1px solid var(--ink); border-radius: 6px; color: white; cursor: pointer; display: none; font: inherit; font-weight: 750; padding: .55rem .8rem; }
+.menu-toggle:hover, .menu-toggle:focus-visible { background: var(--teal-dark); border-color: var(--teal-dark); color: white; }
+@media (max-width: 760px) {
+  .header-inner { align-items: center; flex-direction: row; flex-wrap: wrap; gap: .75rem; }
+  .menu-toggle { display: inline-flex; margin-left: auto; }
+  .site-nav { display: none; flex-basis: 100%; width: 100%; }
+  .site-nav.is-open { display: block; }
+  .site-nav ul { display: grid; gap: .35rem; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .site-nav a { background: #f7faf8; border: 1px solid var(--line); padding: .6rem .7rem; }
+}
