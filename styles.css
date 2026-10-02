@@ -273,22 +273,3 @@ img { height: auto; max-width: 100%; }
 .price-comparison tbody th { background: #f7faf8; color: var(--ink); font-size: .92rem; width: 18%; }
 .price-comparison td { font-size: .92rem; line-height: 1.5; width: 41%; }
 @media (max-width: 760px) { .price-highlights { columns: 1; } .price-comparison { padding-left: 1rem; padding-right: 1rem; } }
-
-
-/* Konkurrentanalysen: beslutningsbokser, tillit og skjemareserve */
-.price-fact-line { background: #eef5f4; border-left: 4px solid var(--teal); color: var(--ink); margin: 1rem 0; max-width: 75ch; padding: .75rem 1rem; }
-.price-fact-line strong { color: var(--teal-dark); }
-.cta-row .text-link { align-self: center; padding: .7rem 0; }
-.contact-reserve, .trust-line { color: var(--ink-soft); font-size: .95rem; margin: 1rem 0 0; }
-.contact-reserve { background: #eef5f4; border-left: 4px solid var(--teal); padding: .8rem 1rem; }
-.trust-line { background: #f7faf8; border: 1px solid var(--line); border-radius: 10px; padding: .8rem 1rem; }
-.concept-brief { background: #eef5f4; border: 1px solid #b6d8d4; border-radius: var(--radius-md); display: grid; gap: .45rem; grid-template-columns: repeat(3, 1fr); list-style: none; margin: 1.5rem 0; padding: 1rem 1.15rem; }
-.concept-brief li { font-weight: 700; padding-left: 1.2rem; position: relative; }
-.concept-brief li::before { color: var(--teal); content: "✓"; font-weight: 900; left: 0; position: absolute; }
-.quick-answer { background: #e3f1ef; border: 1px solid #b6d8d4; border-top: 4px solid var(--teal); border-radius: var(--radius-md); box-shadow: 0 8px 24px rgba(22,50,79,.05); margin: 1.5rem 0; padding: clamp(1.35rem, 3vw, 2.3rem); }
-.quick-answer h2 { font-size: clamp(1.35rem, 2.4vw, 2rem); letter-spacing: -.03em; line-height: 1.15; margin: 0 0 .8rem; }
-.quick-answer ul { margin: .8rem 0 0; padding-left: 1.35rem; }
-.quick-answer li + li { margin-top: .45rem; }
-.quick-links { font-size: .93rem; line-height: 1.7; margin: 1rem 0 0; }
-.thank-you-block { border-top: 4px solid var(--teal); }
-@media (max-width: 760px) { .concept-brief { grid-template-columns: 1fr; } }
