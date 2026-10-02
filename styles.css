@@ -245,3 +245,31 @@ img { height: auto; max-width: 100%; }
 .small-note { color: var(--muted); font-size: .9rem; }
 .concept-contact-layout { border-top: 4px solid var(--teal); }
 @media (max-width: 760px) { .contact-layout { grid-template-columns: 1fr; } .contact-info-panel { padding: 0; } }
+
+
+/* Prisvilkår og sammenligning */
+.price-fact-box {
+  background: #e3f1ef;
+  border: 1px solid #b6d8d4;
+  border-top: 4px solid var(--teal);
+  border-radius: var(--radius-md);
+  box-shadow: 0 8px 24px rgba(22,50,79,.05);
+  margin: 1.5rem 0;
+  padding: clamp(1.35rem, 3vw, 2.3rem);
+}
+.price-fact-box h2 { font-size: clamp(1.35rem, 2.4vw, 2rem); letter-spacing: -.03em; line-height: 1.15; margin: 0 0 .8rem; }
+.price-fact-box .eyebrow { margin-bottom: .35rem; }
+.price-facts { display: flex; flex-wrap: wrap; gap: .55rem; margin: 1rem 0; }
+.price-facts span { background: var(--paper); border: 1px solid #b6d8d4; border-radius: 999px; color: var(--ink); font-size: .92rem; font-weight: 800; padding: .35rem .7rem; }
+.price-highlights { columns: 2; gap: 1.5rem; margin: 1rem 0; padding-left: 1.35rem; }
+.price-highlights li { break-inside: avoid; margin-bottom: .5rem; }
+.price-vat-note { background: #fff7e8; border: 1px solid #ead2a0; border-left: 4px solid var(--orange); border-radius: 10px; font-size: .92rem; margin: 1rem 0 0; max-width: 75ch; padding: .75rem 1rem; }
+.price-comparison { border-top: 4px solid var(--teal); }
+.comparison-scroll { overflow-x: auto; overscroll-behavior-x: contain; padding-bottom: .35rem; }
+.price-comparison table { border-collapse: collapse; min-width: 680px; width: 100%; }
+.price-comparison th, .price-comparison td { border: 1px solid var(--line); padding: .85rem 1rem; text-align: left; vertical-align: top; }
+.price-comparison thead th { background: var(--ink); color: white; font-size: .95rem; }
+.price-comparison thead span { color: #b8e2dd; font-size: .83rem; font-weight: 600; }
+.price-comparison tbody th { background: #f7faf8; color: var(--ink); font-size: .92rem; width: 18%; }
+.price-comparison td { font-size: .92rem; line-height: 1.5; width: 41%; }
+@media (max-width: 760px) { .price-highlights { columns: 1; } .price-comparison { padding-left: 1rem; padding-right: 1rem; } }
