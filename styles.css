@@ -292,3 +292,6 @@ img { height: auto; max-width: 100%; }
 .quick-links { font-size: .93rem; line-height: 1.7; margin: 1rem 0 0; }
 .thank-you-block { border-top: 4px solid var(--teal); }
 @media (max-width: 760px) { .concept-brief { grid-template-columns: 1fr; } }
+
+.service-terms { background: #f7faf8; border: 1px solid var(--line); border-radius: 10px; color: var(--ink-soft); margin: 1rem 0 1.5rem; padding: .8rem 1rem; }
+.service-terms strong { color: var(--ink); }
