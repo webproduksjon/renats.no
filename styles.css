@@ -295,3 +295,7 @@ img { height: auto; max-width: 100%; }
 
 .service-terms { background: #f7faf8; border: 1px solid var(--line); border-radius: 10px; color: var(--ink-soft); margin: 1rem 0 1.5rem; padding: .8rem 1rem; }
 .service-terms strong { color: var(--ink); }
+
+.portfolio-feature { border-top: 4px solid var(--teal); }
+.portfolio-feature h2 { margin-bottom: .55rem; }
+.portfolio-case { background: #f7faf8; border-left: 4px solid var(--teal); }
