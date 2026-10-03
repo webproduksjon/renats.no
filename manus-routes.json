@@ -1,0 +1,192 @@
+{
+  "routes": [
+    {
+      "path": "/blogg/",
+      "title": "Innsikt om nettsider for små bedrifter | webproduksjon.no"
+    },
+    {
+      "path": "/bransjer/elektriker/",
+      "title": "Nettside for elektrikere | webproduksjon.no"
+    },
+    {
+      "path": "/bransjer/",
+      "title": "Nettsider for håndverkere og små bedrifter"
+    },
+    {
+      "path": "/bransjer/konsulent/",
+      "title": "Nettside for konsulenter | webproduksjon.no"
+    },
+    {
+      "path": "/bransjer/maler/",
+      "title": "Nettside for malere | webproduksjon.no"
+    },
+    {
+      "path": "/bransjer/rorlegger/",
+      "title": "Nettside for rørleggere | webproduksjon.no"
+    },
+    {
+      "path": "/bransjer/snekker/",
+      "title": "Nettside for snekkere og tømrere | webproduksjon.no"
+    },
+    {
+      "path": "/demos/elektriker/",
+      "title": "Konseptdemo: nettside for elektriker | webproduksjon.no"
+    },
+    {
+      "path": "/demos/",
+      "title": "Konseptdemoer for nettsider | Fiktive eksempler"
+    },
+    {
+      "path": "/demos/rorlegger/",
+      "title": "Konseptdemo: nettside for rørlegger | webproduksjon.no"
+    },
+    {
+      "path": "/demos/snekker/",
+      "title": "Konseptdemo: nettside for snekker | webproduksjon.no"
+    },
+    {
+      "path": "/gratis-nettsidekonsept.html",
+      "title": "Få forslag til nettside for bedriften | Renat"
+    },
+    {
+      "path": "/",
+      "title": "Nettsider for små bedrifter fra 4 990 kr | Renat"
+    },
+    {
+      "path": "/konsept-kontakt.html",
+      "title": "Be om hjemmesidekonsept | webproduksjon.no"
+    },
+    {
+      "path": "/kontakt.html",
+      "title": "Kontakt | Få forslag til nettside for bedriften"
+    },
+    {
+      "path": "/om.html",
+      "title": "Om Renat | Nettsider for små bedrifter"
+    },
+    {
+      "path": "/personvern.html",
+      "title": "Personvern og kontaktskjema | Webproduksjon.no"
+    },
+    {
+      "path": "/priser.html",
+      "title": "Hva koster en nettside for bedrift? Se priser"
+    },
+    {
+      "path": "/prosess.html",
+      "title": "Lage nettside for bedrift | Slik jobber jeg"
+    },
+    {
+      "path": "/prosjekter/",
+      "title": "Nettside for ABC Bygg AS | Ett ekte prosjekt"
+    },
+    {
+      "path": "/ressurser/elektriker-akutt-og-planlagt.html",
+      "title": "Elektriker: akutt eller planlagt arbeid på nettsiden"
+    },
+    {
+      "path": "/ressurser/elektriker-foresporsel.html",
+      "title": "Hva bør kunden sende en elektriker? | webproduksjon.no"
+    },
+    {
+      "path": "/ressurser/elektriker-nettside-innhold.html",
+      "title": "Innholdssjekkliste for en elektrikers nettside | webproduksjon.no"
+    },
+    {
+      "path": "/ressurser/forste-nettside-for-ny-bedrift.html",
+      "title": "Første nettside for en ny bedrift | webproduksjon.no"
+    },
+    {
+      "path": "/ressurser/hva-koster-en-nettside-for-en-liten-bedrift.html",
+      "title": "Hva koster en nettside for en liten bedrift?"
+    },
+    {
+      "path": "/ressurser/hva-trenger-webdesigner-fra-kunden.html",
+      "title": "Hva trenger en webdesigner fra kunden? | webproduksjon.no"
+    },
+    {
+      "path": "/ressurser/hvem-bor-eie-domene-og-webhotell.html",
+      "title": "Hvem bør eie domenet og webhotellet? | webproduksjon.no"
+    },
+    {
+      "path": "/ressurser/hvor-mange-sider-trenger-en-liten-bedrift/",
+      "title": "Hvor mange sider trenger en liten bedrift? | webproduksjon.no"
+    },
+    {
+      "path": "/ressurser/hvor-mange-sider-trenger-liten-bedrift.html",
+      "title": "Denne guiden er flyttet | Webproduksjon.no"
+    },
+    {
+      "path": "/ressurser/",
+      "title": "Guider om nettsider for små bedrifter | Renat"
+    },
+    {
+      "path": "/ressurser/inkludert-i-liten-bedriftsnettside.html",
+      "title": "Hva inngår i en liten bedriftsnettside?"
+    },
+    {
+      "path": "/ressurser/klart-for-nettsideprosjekt.html",
+      "title": "Dette bør være klart før nettsideprosjektet"
+    },
+    {
+      "path": "/ressurser/landingsside-eller-flersidig-nettside.html",
+      "title": "Landingsside eller flersidig nettside?"
+    },
+    {
+      "path": "/ressurser/nettside-for-elektriker/",
+      "title": "Nettside for elektriker: hovedguide | webproduksjon.no"
+    },
+    {
+      "path": "/ressurser/nettside-for-snekker/",
+      "title": "Nettside for snekker: hovedguide | webproduksjon.no"
+    },
+    {
+      "path": "/ressurser/rorlegger-akutt-planlagt.html",
+      "title": "Rørlegger: akutt eller planlagt arbeid på nettsiden"
+    },
+    {
+      "path": "/ressurser/rorlegger-bad-kjokken.html",
+      "title": "Rørlegger før bad- eller kjøkkenprosjekt | webproduksjon.no"
+    },
+    {
+      "path": "/ressurser/rorlegger-foresporsel.html",
+      "title": "Hva bør kunden sende en rørlegger? | webproduksjon.no"
+    },
+    {
+      "path": "/ressurser/snekker-befaring.html",
+      "title": "Snekkerbefaring: hva bør kunden forberede? | webproduksjon.no"
+    },
+    {
+      "path": "/ressurser/snekker-for-tilbud.html",
+      "title": "Snekker: hva bør nettsiden vise før et tilbud?"
+    },
+    {
+      "path": "/ressurser/snekker-oppussing-byggeprosjekt.html",
+      "title": "Nettside for oppussing og byggeprosjekt | webproduksjon.no"
+    },
+    {
+      "path": "/ressurser/statisk-html-nettside.html",
+      "title": "Hva betyr en statisk HTML-nettside? | webproduksjon.no"
+    },
+    {
+      "path": "/takk.html",
+      "title": "Takk for meldingen | Webproduksjon.no"
+    },
+    {
+      "path": "/tjenester/enkel-nettside.html",
+      "title": "Enkel nettside for bedrift fra 7 990 kr | Renat"
+    },
+    {
+      "path": "/tjenester/",
+      "title": "Nettsider for bedrifter | Landingsside eller firmaside"
+    },
+    {
+      "path": "/tjenester/landingsside.html",
+      "title": "Landingsside for bedrift fra 4 990 kr | Renat"
+    },
+    {
+      "path": "/tjenester/nettside-for-sma-bedrifter.html",
+      "title": "Nettside for små bedrifter | Innhold og pris"
+    }
+  ]
+}

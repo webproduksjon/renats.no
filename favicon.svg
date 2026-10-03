@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="renats.no">
-  <rect width="64" height="64" rx="14" fill="#16324f"/>
-  <path d="M32 10 54 32 32 54 10 32Z" fill="#1c7c7a"/>
-  <path d="m32 19 13 13-13 13-13-13Z" fill="#e89b4a"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Webproduksjon.no">
+  <rect width="64" height="64" rx="13" fill="#142c2a"/>
+  <path d="M10 22h7l4 20 6-15h6l6 15 4-20h7l-7 28h-8l-5-13-5 13h-8z" fill="#d9f076"/>
+  <path d="M45 14h6L34 52h-6z" fill="#d9f076"/>
 </svg>

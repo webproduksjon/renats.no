@@ -18,7 +18,7 @@
   });
 
   document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape') {
+    if (event.key === 'Escape' && button.getAttribute('aria-expanded') === 'true') {
       setOpen(false);
       button.focus();
     }
